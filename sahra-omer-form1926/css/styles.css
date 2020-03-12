@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+form{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+}
+
+fieldset {
+	background-color: #F5F5F5;
+	border: 1px solid #DDD;
+	padding: 1rem !important;
+
+}
+
+.box {
+    margin: 0 0 1rem 0;
+
+}
+
+label {
+    display: block;
+    padding-bottom: 0.3rem;
+}
+.full-name, .email-add{
+	margin-top: 1rem;
+}
+
+
+legend {
+    display: inline-block;
+    margin-left: 1rem !important;
+    font-size: 2rem;
+    border: 1px solid #DDD;
+    padding-top: 0.6rem !important;
+    padding-bottom: 0.6rem !important;
+    width: 15rem !important;
+    height: 4rem;
+   	padding-left: 1.5rem !important;
+    background-color: white;
+}
+#message, #fname, #email{
+	width: 100%;
+}
+
+#validate-form {
+	background-color: #6495ED;
+	color: white
+
+}
+
+@media screen and (max-width: 40rem) {
+	form{
+		width: 95% !important;
+	}
+}
+
+
+
